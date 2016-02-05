@@ -1,3 +1,6 @@
+-- little script which automatically creates/removes LookAt constraints
+-- more information at https://ascobash.wordpress.com/2016/02/04/dir_-helper-for-3ds-max/
+
 fn GetSubject obj = (
 	local name = obj.name
 	local subjectName = substring name 5 (name.count - 4)
